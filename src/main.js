@@ -4,7 +4,9 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import './plugins/axios'
+import { VueMasonryPlugin } from 'vue-masonry';
 
+Vue.use(VueMasonryPlugin)
 Vue.config.productionTip = false;
 
 new Vue({
